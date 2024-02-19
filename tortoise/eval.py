@@ -3,7 +3,7 @@ import os
 
 import torchaudio
 
-from api import TextToSpeech
+from app import TextToSpeech
 from tortoise.utils.audio import load_audio
 
 if __name__ == '__main__':

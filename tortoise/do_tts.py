@@ -4,7 +4,7 @@ import os
 import torch
 import torchaudio
 
-from api import TextToSpeech, MODELS_DIR
+from app import TextToSpeech, MODELS_DIR
 from utils.audio import load_voices
 
 if __name__ == '__main__':

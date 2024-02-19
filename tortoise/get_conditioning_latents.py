@@ -2,7 +2,7 @@ import argparse
 import os
 import torch
 
-from api import TextToSpeech
+from app import TextToSpeech
 from tortoise.utils.audio import load_audio, get_voices
 
 """

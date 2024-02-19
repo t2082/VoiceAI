@@ -5,7 +5,7 @@ from time import time
 import torch
 import torchaudio
 
-from api import TextToSpeech, MODELS_DIR
+from app import TextToSpeech, MODELS_DIR
 from utils.audio import load_audio, load_voices
 from utils.text import split_and_recombine_text
 
